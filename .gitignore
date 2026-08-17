@@ -1,0 +1,12 @@
+id_*
+*.pem
+*.key
+.env
+.env.*
+*.log
+
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~

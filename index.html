@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0b0b0c" />
+    <meta name="color-scheme" content="dark" />
+    <title>Short Video Feed</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <main class="stage" data-feed-stage aria-label="Short video feed">
+        <div
+          class="feed"
+          data-feed-scroller
+          tabindex="0"
+          role="feed"
+          aria-label="Vertical video feed"
+        ></div>
+
+        <div class="chrome" aria-label="Playback controls">
+          <button
+            type="button"
+            class="control-button"
+            data-action="play"
+            aria-label="Play"
+            data-playing="false"
+          >
+            <span class="icon icon-play" aria-hidden="true"></span>
+            <span class="icon icon-pause" aria-hidden="true"></span>
+          </button>
+          <button
+            type="button"
+            class="control-button"
+            data-action="mute"
+            aria-label="Mute"
+            aria-pressed="true"
+            data-muted="true"
+          >
+            <span class="icon icon-muted" aria-hidden="true"></span>
+            <span class="icon icon-unmuted" aria-hidden="true"></span>
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

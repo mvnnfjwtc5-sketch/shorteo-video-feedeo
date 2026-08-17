@@ -1,0 +1,8 @@
+export const CONFIG = Object.freeze({
+  POOL_SIZE: 5,
+  MEDIA_WINDOW_RADIUS: 1,
+  ACTIVE_INTERSECTION_RATIO: 0.6,
+  SCROLL_SETTLE_MS: 120,
+  START_MUTED: true,
+  LOOP: true,
+});
